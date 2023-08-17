@@ -1,0 +1,43 @@
+.team-container *:not(strong) {
+    margin: 3px 0 0 0;
+}
+
+.team-container header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    border-radius: .25rem;
+    color: var(--color-to-details);
+}
+
+.team-container img {
+    max-width: 3.935625em;
+    max-height: 3.935625em;
+    margin: 0 auto 0 auto;
+}
+
+.team-container h4,
+.team-container p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.team-container h4 {
+    text-align: center;
+}
+
+.team-container h5 {
+    color: var(--special-fonts-color);
+    cursor: pointer;
+}
+
+.team-container h5:hover {
+    color: var(--transparency-to-secondary);
+}
+
+.team-data{
+    background-color: var(--transparency-to-details);
+    border-radius: .25rem;
+    padding: .5rem;
+}

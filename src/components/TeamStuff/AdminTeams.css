@@ -1,0 +1,43 @@
+.teams-adm-container {
+    display: grid;
+    margin-top: .5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.team-figure-container {
+    background-color: var(--transparency-to-details);
+}
+
+.team-figure-container header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    border-radius: .25rem;
+    color: var(--color-to-details);
+    cursor: pointer;
+}
+
+.team-figure-container header:hover {
+    box-shadow: 2px 1px 20px var(--secondary-color);
+}
+
+.team-figure-container img {
+    max-width: 3.935625em;
+    max-height: 3.935625em;
+    margin: 0 auto 0 auto;
+}
+
+.team-figure-container h4 {
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 1200px) {
+    .team-figure-container img {
+        max-width: 9.643125em;
+        max-height: 9.643125em;
+    }
+}

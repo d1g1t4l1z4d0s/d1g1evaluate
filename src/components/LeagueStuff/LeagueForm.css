@@ -1,0 +1,21 @@
+.league-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .25rem;
+    margin-inline: auto;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.league-form input,
+.league-form select,
+.league-form label {
+    margin: 0;
+}
+
+.league-form:last-of-type input[type="submit"]{
+    align-self: center;
+}

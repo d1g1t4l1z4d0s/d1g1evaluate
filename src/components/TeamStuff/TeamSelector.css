@@ -1,0 +1,12 @@
+.league-selector,
+.team-selector label, 
+.selector-container select {
+    display: block;
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.selector-container{
+    margin-bottom: 2.5rem;
+}

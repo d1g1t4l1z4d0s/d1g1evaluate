@@ -1,0 +1,25 @@
+.success,
+.warning,
+.error {    
+    border-radius: .25rem;
+    height: fit-content;
+}
+.success,
+.warning,
+.error>p {
+    text-align: center;
+    font-size: var(--step--2);
+}
+
+
+.success {
+    background-color: var(--positive-color);
+}
+
+.warning {
+    background-color: var(--warning-color);
+}
+
+.error {
+    background-color: var(--negative-color);
+}
