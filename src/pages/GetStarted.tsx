@@ -17,7 +17,7 @@ export default function GetStarted() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='/TeamsComp.png' />
+                        <img src='./src/assets/TeamsComp.png' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -30,7 +30,7 @@ export default function GetStarted() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='/TeamsFeature.png' />
+                        <img src='./src/assets/TeamsFeature.png' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -42,7 +42,7 @@ export default function GetStarted() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='/ModalComp.png' />
+                        <img src='./src/assets/ModalComp.png' />
                     </div>
                 </article>
             </section>
@@ -59,7 +59,7 @@ export default function GetStarted() {
                         </ol>
                     </div>
                     <div className='asset-container'>
-                        <img src='/Leagues.png' />
+                        <img src='./src/assets/Leagues.png' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -73,7 +73,7 @@ export default function GetStarted() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='/NewLeague.png' />
+                        <img src='./src/assets/NewLeague.png' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -92,7 +92,7 @@ export default function GetStarted() {
                         </ol>
                     </div>
                     <div className='asset-container'>
-                        <img src='/League.png' />
+                        <img src='./src/assets/League.png' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -105,7 +105,7 @@ export default function GetStarted() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='/NewTeam.png' />
+                        <img src='./src/assets/NewTeam.png' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -119,7 +119,7 @@ export default function GetStarted() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='/TeamForm.png' />
+                        <img src='./src/assets/TeamForm.png' />
                     </div>
                 </article>
             </section>}

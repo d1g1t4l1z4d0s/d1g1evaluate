@@ -28,18 +28,18 @@ export default function App() {
     <>
       <Suspense fallback={<Loader />}>
         <QueryClientProvider client={queryClient}>
-          <HashRouter>
+          <HashRouter basename='/'>
             <Navbar />
             <Routes>
-              <Route path='/' element={<Home />} />
+              <Route index element={<Home />} />
               <Route path='/get-started' element={<GetStarted />} />
-              <Route path='signup' element={<Signup />} />
-              <Route path='login' element={<Login />} />
-              <Route path='compare' element={token ? <Compare /> : <Navigate to='/login' />} />
-              <Route path='leagues' element={(token && rol === 'super') ? <Leagues /> : <Navigate to='/login' />} />
-              <Route path='newLeague' element={(token && rol === 'super') ? <NewLeague /> : <Navigate to='/login' />} />
-              <Route path='leagues/:leagueId' element={(token && rol === 'super') ? <LeagueDetails /> : <Navigate to='/login' />} />
-              <Route path='teams/:leagueId' element={(token && rol === 'super') ? <TeamDetails /> : <Navigate to='/login' />} />
+              <Route path='/signup' element={<Signup />} />
+              <Route path='/login' element={<Login />} />
+              <Route path='/compare' element={token ? <Compare /> : <Navigate to='/login' />} />
+              <Route path='/leagues' element={(token && rol === 'super') ? <Leagues /> : <Navigate to='/login' />} />
+              <Route path='/newLeague' element={(token && rol === 'super') ? <NewLeague /> : <Navigate to='/login' />} />
+              <Route path='/leagues/:leagueId' element={(token && rol === 'super') ? <LeagueDetails /> : <Navigate to='/login' />} />
+              <Route path='/teams/:leagueId' element={(token && rol === 'super') ? <TeamDetails /> : <Navigate to='/login' />} />
               <Route path='*' element={<p>Error, use the menu to go to an existing page</p>} />
             </Routes>
             <Footer />
