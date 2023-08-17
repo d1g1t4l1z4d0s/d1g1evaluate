@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "./",
+  "homepage": "https://d1g1t4l1z4d0s.github.io/d1g1evaluate/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
