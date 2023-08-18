@@ -1,0 +1,1 @@
+.user-form{width:80%;padding:1rem;border-radius:.25rem;margin-inline:auto;display:flex;flex-direction:column;gap:.25rem}.user-form input,.user-form select,.user-form label{margin:0}.user-form:last-of-type input[type=submit]{align-self:center}

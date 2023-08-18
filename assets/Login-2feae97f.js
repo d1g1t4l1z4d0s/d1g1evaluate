@@ -1,0 +1,1 @@
+import{c as s,j as a,a as o}from"./index-c055e0ee.js";import{U as e}from"./UserForm-4afbc385.js";function i(){const{mutate:n}=s();return a("main",{className:"content",children:[o("h1",{children:"Login"}),o(e,{mode:"login",mutate:n})]})}export{i as default};
