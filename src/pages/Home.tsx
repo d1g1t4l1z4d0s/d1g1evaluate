@@ -13,7 +13,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='./src/assets/goal.svg' />
+                        <img src='/goal.svg' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -25,7 +25,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='./src/assets/stats.svg' />
+                        <img src='/stats.svg' />
                     </div>
                 </article>
                 <article className='home-content'>
@@ -38,7 +38,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className='asset-container'>
-                        <img src='./src/assets/started.svg' />
+                        <img src='/started.svg' />
                     </div>
                 </article>
             </section>
