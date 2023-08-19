@@ -1,0 +1,1 @@
+import{b as r,j as s,L as e,a as i}from"./index-d0b13413.js";import{U as o}from"./UserForm-03ce2caf.js";function m(){const{mutate:n,isLoading:a}=r();return a?s(e,{}):i("main",{className:"content",children:[s("h1",{children:"Signup"}),s(o,{mode:"signup",mutate:n})]})}export{m as default};
